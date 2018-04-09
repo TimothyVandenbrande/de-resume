@@ -128,7 +128,7 @@ employment:
         - Supervised roll-out of Dunder Mifflin Infinity website.
         - 'Performed mission-critical system backups and '
         - Etc.
-  education:
+education:
   - institution: Cornell University
     title: Some Degree
     start: 2009
@@ -211,7 +211,7 @@ languages:
     level: Moderate
     years: 10
 
-    interests:
+interests:
   - name: reading
     summary: Jane is a fan of mystery novels and courtroom dramas including Agatha Christie and John Grisham.
     keywords:
@@ -221,4 +221,3 @@ languages:
   - name: hiking
     summary: Jane enjoys hiking, light mountain climbing, and has four summits under her belt!
   - name: yoga
-  
