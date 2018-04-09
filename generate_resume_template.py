@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-#from docxtpl import DocxTemplate
+from docxtpl import DocxTemplate
 import yaml
 import json
 import os
