@@ -19,7 +19,6 @@ resumedir = os.getcwd() + '/resume'
 for r, d, f in os.walk(resumedir):
     for filename in f:
         truefile = os.path.join(r, filename)
-        print truefile
         if ".yml" in filename or ".yaml" in filename or ".json" in filename:
             generate_it(resumedir, filename, doc)
 
