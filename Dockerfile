@@ -1,14 +1,16 @@
-FROM python:3 as python-base
-COPY requirements.txt .
-RUN pip install -r requirements.txt
+FROM python:3 as builder
 
-FROM python:3-alpine
-COPY --from=python-base /root/.cache /root/.cache
+RUN mkdir /install
+WORKDIR /install
 
-WORKDIR /usr/src/app
+COPY requirements.txt /requirements.txt
+RUN pip install --install-option="--prefix=/install" -r /requirements.txt
 
-COPY . .
-
-VOLUME /usr/src/app/resume
-
-CMD [ "python", "./generate_resume_template.py" ]
+FROM python:3
+COPY --from=builder /install /usr
+RUN mkdir -p /app/resume
+COPY generate_resume_template.py /app
+COPY de_cv_template.docx /app
+WORKDIR /app
+VOLUME /app/resume
+CMD ["python", "./generate_resume_template.py"]
