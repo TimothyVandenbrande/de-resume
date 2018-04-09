@@ -10,6 +10,8 @@ Install the prerequisites:
 pip install -r requirements.txt
 ```
 
+Install the font: <https://fonts.google.com/specimen/Quicksand>
+
 ## Usage
 
 Make a resume based on the YAML or JSON template and save it in the resume directory.
