@@ -12,4 +12,5 @@ python:
 install:
   - pip install -r requirements.txt
 script:
-  - generate_resume_template.py
+  - chmod +x generate_resume_template.py
+  - ./generate_resume_template.py
