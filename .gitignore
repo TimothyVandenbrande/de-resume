@@ -593,3 +593,4 @@ paket-files/
 # End of https://www.gitignore.io/api/osx,linux,python,eclipse,windows,intellij,visualstudio,visualstudiocode
 
 generated/*
+resume/*.docx
