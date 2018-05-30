@@ -14,7 +14,7 @@ Install the font: <https://fonts.google.com/specimen/Quicksand>
 
 ## Usage
 
-Make a resume based on the YAML or JSON template and save it in the resume directory.
+Make a resume based on the YAML or JSON template and save it in the `resume` directory.
 After that, run the generator:
 
 ``` bash
