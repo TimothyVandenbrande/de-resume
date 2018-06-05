@@ -14,6 +14,5 @@ python:
 install:
   - pip install -r requirements.txt
 script:
-  - ls -lR
   - python generate_resume_template.py
   - python check_wordfile.py
