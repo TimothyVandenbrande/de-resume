@@ -5,7 +5,7 @@ import yaml
 import json
 import os
 
-def generate_it(resumedir, filename, template):
+def generate_cv(resumedir, filename, template):
     if filename.lower().endswith(('.yml', '.yaml')):
         context = yaml.load(open(resumedir + "/" + filename, 'r'))
     elif filename.lower().endswith('.json'):
@@ -20,4 +20,4 @@ for r, d, filenames in os.walk(resumedir):
     for filename in filenames:
         truefile = os.path.join(r, filename)
         if filename.lower().endswith(('.yml', '.yaml', '.json')):
-            generate_it(resumedir, filename, doc)
+            generate_cv(resumedir, filename, doc)
