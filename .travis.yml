@@ -13,3 +13,4 @@ install:
 script:
   - ls -lR
   - python generate_resume_template.py
+  - python check_wordfile.py
