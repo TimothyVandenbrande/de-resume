@@ -1,5 +1,7 @@
 # Generation script for a Dominion Expert Resume
 
+[![Build Status](https://travis-ci.org/DominionExperts/de-resume.svg?branch=master)](https://travis-ci.org/DominionExperts/de-resume)
+
 ## Prerequisites
 
 Install python: <https://www.python.org/downloads/>
