@@ -27,4 +27,8 @@ Yes, it is __this__ easy.
 
 ## Docker
 
-option in backlog
+1. Clone this repository
+2. Add your resume __JSON__ or __YAML__ file to the resume folder
+3. Run `docker run --rm -ti -v $(pwd)/resume:/app/resume dominionexperts/de-resume`
+4. Find your generated resume in the `resume` folder
+
