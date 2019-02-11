@@ -12,6 +12,8 @@ def generate_cv(resumedir, filename, template):
         context = json.loads(open(resumedir + "/" + filename, 'r').read())
     template.render(context)
     template.save(resumedir + "/" + filename + ".docx")
+    context = None
+
 
 doc = DocxTemplate("de_cv_template.docx")
 
