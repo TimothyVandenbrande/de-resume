@@ -3,7 +3,7 @@
 from docx import Document
 
 import textract
-text = textract.process('resume/default-resume.json.docx', extension='docx')
+text = textract.process('output/default-resume.docx', extension='docx')
 
 for line in str(text).split('\n'):
     if "{{" in line or "}}" in line:
