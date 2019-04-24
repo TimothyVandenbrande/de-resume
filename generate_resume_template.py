@@ -6,7 +6,7 @@ import json
 import os
 
 def generate_cv(resumedir, outputdir, filename, templateLocation):
-    template = DocxTemplate(template)
+    template = DocxTemplate(templateLocation)
     if filename.lower().endswith(('.yml', '.yaml')):
         context = yaml.load(open(resumedir + "/" + filename, 'r'), Loader=yaml.SafeLoader)
     elif filename.lower().endswith('.json'):
