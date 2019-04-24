@@ -16,7 +16,6 @@ def generate_cv(resumedir, outputdir, filename, template):
     context = None
 
 
-doc = DocxTemplate("templates/de_cv_template.docx.j2")
 outputdir = os.getcwd() + "/output"
 resumedir = os.getcwd() + "/resume"
 
@@ -24,4 +23,5 @@ for r, d, filenames in os.walk(resumedir):
     for filename in filenames:
         truefile = os.path.join(r, filename)
         if filename.lower().endswith(('.yml', '.yaml', '.json')):
+            doc = DocxTemplate("templates/de_cv_template.docx.j2")
             generate_cv(resumedir, outputdir, filename, doc)
