@@ -26,9 +26,13 @@ python ./generate_resume_generator.py
 Yes, it is __this__ easy.
 
 ## Docker
+When working on Windows, don't forget to share your drive under Docker => settings => Shared Drives.
+Keep in mind: after changing windows username or password you need to re-apply this.
 
 1. Clone this repository
-2. Add your resume __JSON__ or __YAML__ file to the resume folder
-3. Run `docker run --rm -ti -v $(pwd)/resume:/app/resume dominionexperts/de-resume`
-4. Find your generated resume in the `resume` folder
+1. cd into the repository
+1. Add your resume __JSON__ or __YAML__ file to the resume folder
+1. Run `docker run --rm -ti -v $(pwd)/resume:/app/resume dominionexperts/de-resume` or for Windows PowerShell: 
+ `docker run --rm -ti -v "$(pwd)/resume:/app/resume" dominionexperts/de-resume`
+1. Find your generated resume in the `resume` folder
 
