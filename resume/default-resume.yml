@@ -140,53 +140,82 @@ education:
     year: 2000
 certification:
   - title: Most awesome and by everyone wanted certificate
-    year: '2017'
+    year: 2017
 skills:
   sets:
     - name: Web
       level: advanced
       skills:
-        JavaScript: 4
-        HTML 5: 4
-        CSS: 5
-        LAMP: 3
-        MVC: 4
-        REST: 5
+        - name: JavaScript
+          level: 4
+        - name: HTML 5
+          level: 4
+        - name: CSS
+          level: 5
+        - name: LAMP
+          level: 3
+        - name: MVC
+          level: 4
+        - name: REST
+          level: 5
     - name: JavaScript
       level: master
       skills:
-        Node.js: 5
-        Angular.js: 4
-        jQuery: 3
-        Bootstrap: 4
-        React.js: 5
-        Backbone.js: 5
+        - name: Node.js
+          level: 5
+        - name: Angular.js
+          level: 4
+        - name: jQuery
+          level: 3
+        - name: Bootstrap
+          level: 4
+        - name: React.js
+          level: 5
+        - name: Backbone.js
+          level: 5
     - name: Database
       level: intermediate
       skills:
-        MySQL: 3
-        PostgreSQL: 3
-        NoSQL: 3
-        ORM: 2
-        Hibernate: 3
+        - name: MySQL
+          level: 3
+        - name: PostgreSQL
+          level: 3
+        - name: NoSQL
+          level: 3
+        - name: ORM
+          level: 2
+        - name: Hibernate
+          level: 3
     - name: Cloud
       level: intermediate
       skills:
-        AWS: 4
-        EC2: 3
-        RDS: 2
-        S3: 3
-        Azure: 3
-        Dropbox: 5
+        - name: AWS
+          level: 4
+        - name: EC2
+          level: 3
+        - name: RDS
+          level: 2
+        - name: S3
+          level: 3
+        - name: Azure
+          level: 3
+        - name: Dropbox
+          level: 5
     - name: Project
       level: beginner
       skills:
-        Agile: 2
-        TFS: 1
-        JIRA: 2
-        GitHub: 4
-        Unified Process: 3
-        MS Project: 1
+        - name: Agile
+          level: 2
+        - name: TFS
+          level: 1
+        - name: JIRA
+          level: 2
+        - name: GitHub
+          level: 4
+        - name: Unified Process
+          level: 3
+        - name: MS Project
+          level: 1
 
 references:
   - name: John Davidson

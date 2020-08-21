@@ -1,305 +1,392 @@
 {
 	"name": "Jane Q. Fullstacker",
 	"meta": {
-		"version": "20180409"
+	  "version": "20180409"
 	},
 	"info": {
-		"firstname": "Jane",
-		"surname": "Fullstacker",
-		"label": "Senior Developer",
-		"characterClass": "Programmer",
-		"brief": "**Imaginary full-stack software developer with 6+ years industry experience** specializing in cloud-driven web applications and middleware. A native of southern CA, Jane enjoys hiking, mystery novels, and the company of Rufus, her two year old beagle.",
-		"image": "jane_doe.png",
-		"quote": "Be the change you want to see in the world.",
-		"birth": "1804",
-		"nationality": "Utopian",
-		"gender": "Female",
-		"city": "Technopolis"
+	  "firstname": "Jane",
+	  "surname": "Fullstacker",
+	  "label": "Senior Developer",
+	  "characterClass": "Programmer",
+	  "brief": "**Imaginary full-stack software developer with 6+ years industry experience** specializing in cloud-driven web applications and middleware. A native of southern CA, Jane enjoys hiking, mystery novels, and the company of Rufus, her two year old beagle.",
+	  "image": "jane_doe.png",
+	  "quote": "Be the change you want to see in the world.",
+	  "birth": "1804",
+	  "nationality": "Utopian",
+	  "gender": "Female",
+	  "city": "Technopolis"
 	},
 	"contact": {
-		"company": "Dominion Experts bvba",
-		"website": "https://www.dominionexperts.be",
-		"phone": "+32 55 385 600",
-		"fax": "+32 55 385 602",
-		"email": "info@dominionexperts.be"
+	  "company": "Dominion Experts bvba",
+	  "website": "https://www.dominionexperts.be",
+	  "phone": "+32 55 385 600",
+	  "fax": "+32 55 385 602",
+	  "email": "info@dominionexperts.be"
 	},
 	"location": {
-		"address": "Fostierlaan 52",
-		"city": "Ronse",
-		"code": "B-9600",
-		"country": "BE"
+	  "address": "Fostierlaan 52",
+	  "city": "Ronse",
+	  "code": "B-9600",
+	  "country": "BE"
 	},
 	"projects": [
-		{
-			"title": "Augmented Android",
-			"category": "commercial",
-			"role": "co-creator",
-			"url": "http://project.website.com",
-			"repo": "http://repo.website.com",
-			"description": "An augmented reality app for Android.",
-			"start": "2012-02",
-			"end": "2014-01",
-			"summary": "Performed flagship product conceptualization and development.",
-			"keywords": [
-				"Android",
-				"Java",
-				"Xamarin"
-			]
-		},
-		{
-			"title": "Blog",
-			"category": "personal",
-			"role": "creator",
-			"url": "http://myblog.jane.com/blog",
-			"description": "My programming blog. Powered by Jekyll.",
-			"summary": "Conceptualization, design, development, and deployment.",
-			"keywords": [
-				"Jekyll",
-				"Ruby",
-				"HTML 5",
-				"JavaScript",
-				"HTTP",
-				"LAMP"
-			]
-		}
+	  {
+		"title": "Augmented Android",
+		"category": "commercial",
+		"role": "co-creator",
+		"url": "http://project.website.com",
+		"repo": "http://repo.website.com",
+		"description": "An augmented reality app for Android.",
+		"start": "2012-02",
+		"end": "2014-01",
+		"summary": "Performed flagship product conceptualization and development.",
+		"keywords": [
+		  "Android",
+		  "Java",
+		  "Xamarin"
+		]
+	  },
+	  {
+		"title": "Blog",
+		"category": "personal",
+		"role": "creator",
+		"url": "http://myblog.jane.com/blog",
+		"description": "My programming blog. Powered by Jekyll.",
+		"summary": "Conceptualization, design, development, and deployment.",
+		"keywords": [
+		  "Jekyll",
+		  "Ruby",
+		  "HTML 5",
+		  "JavaScript",
+		  "HTTP",
+		  "LAMP"
+		]
+	  }
 	],
 	"social": [
-		{
-			"label": "GitHub",
-			"network": "GitHub",
-			"user": "janef-was-here",
-			"url": "https://github.com/janef-was-here"
-		},
-		{
-			"label": "Twitter",
-			"network": "Twitter",
-			"user": "janef-was-here",
-			"url": "https://twitter.com/janef-was-here"
-		}
+	  {
+		"label": "GitHub",
+		"network": "GitHub",
+		"user": "janef-was-here",
+		"url": "https://github.com/janef-was-here"
+	  },
+	  {
+		"label": "Twitter",
+		"network": "Twitter",
+		"user": "janef-was-here",
+		"url": "https://twitter.com/janef-was-here"
+	  }
 	],
 	"employment": {
-		"summary": "7+ years industry IT and software development experience.",
-		"history": [
-			{
-				"employer": "Area 52",
-				"url": "https://area52.io/does-not-exist",
-				"position": "Head Code Ninja",
-				"summary": "Development team manager for [**Quantum Diorama**](https://en.wikipedia.org/wiki/Vaporware), a distributed molecular modeling and analysis suite for Linux and OS X.",
-				"start": "2013-09",
-				"current": true,
-				"keywords": [
-					"Agile",
-					"PM",
-					"C",
-					"C++",
-					"R",
-					"OpenGL",
-					"Boost",
-					"MySQL",
-					"PostgreSQL",
-					"JIRA"
-				],
-				"highlights": [
-					"Managed a 5-person development team",
-					"Accomplishment 2",
-					"Etc."
-				]
-			},
-			{
-				"employer": "Veridian Dynamics",
-				"url": "https://en.wikipedia.org/wiki/Better_Off_Ted#Plot",
-				"position": "Principal Developer",
-				"summary": "Developer on numerous projects culminating in technical lead role for the [Jabberwocky project](http://betteroffted.wikia.com/wiki/Jabberwocky) and promotion to principal developer.",
-				"start": "2011-07",
-				"end": "2013-08",
-				"keywords": [
-					"C++",
-					"C",
-					"Linux",
-					"R",
-					"Clojure"
-				],
-				"highlights": [
-					"Managed a 5-person development team",
-					"Accomplishment 2",
-					"Etc."
-				]
-			},
-			{
-				"employer": "Stark Industries",
-				"position": "IT Administrator",
-				"summary": "Junior programmer with heavy code responsibilities. Promoted to intermediate role after 6 months.",
-				"start": "2008-10",
-				"end": "2011-06",
-				"keywords": [
-					"Novell",
-					"Active Directory",
-					"Linux",
-					"Windows"
-				],
-				"highlights": [
-					"Promoted to intermediate developer after 6 months",
-					"Accomplishment 2",
-					"Etc."
-				]
-			},
-			{
-				"employer": "Dunder Mifflin",
-				"position": "Intern",
-				"summary": "Performed IT administration and deployments for Dunder Mifflin.",
-				"start": "2008-06",
-				"end": "2008-09",
-				"keywords": [
-					"Novell",
-					"Active Directory",
-					"Linux",
-					"Windows"
-				],
-				"highlights": [
-					"Supervised roll-out of Dunder Mifflin Infinity website.",
-					"Performed mission-critical system backups and ",
-					"Etc."
-				]
-			}
-		]
+	  "summary": "7+ years industry IT and software development experience.",
+	  "history": [
+		{
+		  "employer": "Area 52",
+		  "url": "https://area52.io/does-not-exist",
+		  "position": "Head Code Ninja",
+		  "summary": "Development team manager for [**Quantum Diorama**](https://en.wikipedia.org/wiki/Vaporware), a distributed molecular modeling and analysis suite for Linux and OS X.",
+		  "start": "2013-09",
+		  "current": true,
+		  "keywords": [
+			"Agile",
+			"PM",
+			"C",
+			"C++",
+			"R",
+			"OpenGL",
+			"Boost",
+			"MySQL",
+			"PostgreSQL",
+			"JIRA"
+		  ],
+		  "highlights": [
+			"Managed a 5-person development team",
+			"Accomplishment 2",
+			"Etc."
+		  ]
+		},
+		{
+		  "employer": "Veridian Dynamics",
+		  "url": "https://en.wikipedia.org/wiki/Better_Off_Ted#Plot",
+		  "position": "Principal Developer",
+		  "summary": "Developer on numerous projects culminating in technical lead role for the [Jabberwocky project](http://betteroffted.wikia.com/wiki/Jabberwocky) and promotion to principal developer.",
+		  "start": "2011-07",
+		  "end": "2013-08",
+		  "keywords": [
+			"C++",
+			"C",
+			"Linux",
+			"R",
+			"Clojure"
+		  ],
+		  "highlights": [
+			"Managed a 5-person development team",
+			"Accomplishment 2",
+			"Etc."
+		  ]
+		},
+		{
+		  "employer": "Stark Industries",
+		  "position": "IT Administrator",
+		  "summary": "Junior programmer with heavy code responsibilities. Promoted to intermediate role after 6 months.",
+		  "start": "2008-10",
+		  "end": "2011-06",
+		  "keywords": [
+			"Novell",
+			"Active Directory",
+			"Linux",
+			"Windows"
+		  ],
+		  "highlights": [
+			"Promoted to intermediate developer after 6 months",
+			"Accomplishment 2",
+			"Etc."
+		  ]
+		},
+		{
+		  "employer": "Dunder Mifflin",
+		  "position": "Intern",
+		  "summary": "Performed IT administration and deployments for Dunder Mifflin.",
+		  "start": "2008-06",
+		  "end": "2008-09",
+		  "keywords": [
+			"Novell",
+			"Active Directory",
+			"Linux",
+			"Windows"
+		  ],
+		  "highlights": [
+			"Supervised roll-out of Dunder Mifflin Infinity website.",
+			"Performed mission-critical system backups and ",
+			"Etc."
+		  ]
+		}
+	  ]
 	},
 	"education": [
-		{
-			"institution": "Cornell University",
-			"title": "Some Degree",
-			"start": 2009
-		},
-		{
-			"institution": "Medfield College",
-			"title": "Some other degree",
-			"year": 2005
-		},
-		{
-			"institution": "Ninjitsu Academy",
-			"title": "Grandmaster",
-			"year": 2000
-		}
+	  {
+		"institution": "Cornell University",
+		"title": "Some Degree",
+		"start": 2009
+	  },
+	  {
+		"institution": "Medfield College",
+		"title": "Some other degree",
+		"year": 2005
+	  },
+	  {
+		"institution": "Ninjitsu Academy",
+		"title": "Grandmaster",
+		"year": 2000
+	  }
 	],
 	"certification": [
-		{
-			"title": "Most awesome and by everyone wanted certificate",
-			"year": "2017"
-		}
+	  {
+		"title": "Most awesome and by everyone wanted certificate",
+		"year": 2017
+	  }
 	],
 	"skills": {
-		"sets": [
+	  "sets": [
+		{
+		  "name": "Web",
+		  "level": "advanced",
+		  "skills": [
 			{
-				"name": "Web",
-				"level": "advanced",
-				"skills": {
-					"JavaScript": 4,
-					"HTML 5": 4,
-					"CSS": 5,
-					"LAMP": 3,
-					"MVC": 4,
-					"REST": 5
-				}
+			  "name": "JavaScript",
+			  "level": 4
 			},
 			{
-				"name": "JavaScript",
-				"level": "master",
-				"skills": {
-					"Node.js": 5,
-					"Angular.js": 4,
-					"jQuery": 3,
-					"Bootstrap": 4,
-					"React.js": 5,
-					"Backbone.js": 5
-				}
+			  "name": "HTML 5",
+			  "level": 4
 			},
 			{
-				"name": "Database",
-				"level": "intermediate",
-				"skills": {
-					"MySQL": 3,
-					"PostgreSQL": 3,
-					"NoSQL": 3,
-					"ORM": 2,
-					"Hibernate": 3
-				}
+			  "name": "CSS",
+			  "level": 5
 			},
 			{
-				"name": "Cloud",
-				"level": "intermediate",
-				"skills": {
-					"AWS": 4,
-					"EC2": 3,
-					"RDS": 2,
-					"S3": 3,
-					"Azure": 3,
-					"Dropbox": 5
-				}
+			  "name": "LAMP",
+			  "level": 3
 			},
 			{
-				"name": "Project",
-				"level": "beginner",
-				"skills": {
-					"Agile": 2,
-					"TFS": 1,
-					"JIRA": 2,
-					"GitHub": 4,
-					"Unified Process": 3,
-					"MS Project": 1
-				}
+			  "name": "MVC",
+			  "level": 4
+			},
+			{
+			  "name": "REST",
+			  "level": 5
 			}
-		]
+		  ]
+		},
+		{
+		  "name": "JavaScript",
+		  "level": "master",
+		  "skills": [
+			{
+			  "name": "Node.js",
+			  "level": 5
+			},
+			{
+			  "name": "Angular.js",
+			  "level": 4
+			},
+			{
+			  "name": "jQuery",
+			  "level": 3
+			},
+			{
+			  "name": "Bootstrap",
+			  "level": 4
+			},
+			{
+			  "name": "React.js",
+			  "level": 5
+			},
+			{
+			  "name": "Backbone.js",
+			  "level": 5
+			}
+		  ]
+		},
+		{
+		  "name": "Database",
+		  "level": "intermediate",
+		  "skills": [
+			{
+			  "name": "MySQL",
+			  "level": 3
+			},
+			{
+			  "name": "PostgreSQL",
+			  "level": 3
+			},
+			{
+			  "name": "NoSQL",
+			  "level": 3
+			},
+			{
+			  "name": "ORM",
+			  "level": 2
+			},
+			{
+			  "name": "Hibernate",
+			  "level": 3
+			}
+		  ]
+		},
+		{
+		  "name": "Cloud",
+		  "level": "intermediate",
+		  "skills": [
+			{
+			  "name": "AWS",
+			  "level": 4
+			},
+			{
+			  "name": "EC2",
+			  "level": 3
+			},
+			{
+			  "name": "RDS",
+			  "level": 2
+			},
+			{
+			  "name": "S3",
+			  "level": 3
+			},
+			{
+			  "name": "Azure",
+			  "level": 3
+			},
+			{
+			  "name": "Dropbox",
+			  "level": 5
+			}
+		  ]
+		},
+		{
+		  "name": "Project",
+		  "level": "beginner",
+		  "skills": [
+			{
+			  "name": "Agile",
+			  "level": 2
+			},
+			{
+			  "name": "TFS",
+			  "level": 1
+			},
+			{
+			  "name": "JIRA",
+			  "level": 2
+			},
+			{
+			  "name": "GitHub",
+			  "level": 4
+			},
+			{
+			  "name": "Unified Process",
+			  "level": 3
+			},
+			{
+			  "name": "MS Project",
+			  "level": 1
+			}
+		  ]
+		}
+	  ]
 	},
 	"references": [
-		{
-			"name": "John Davidson",
-			"function": "Da Big Boss",
-			"company": "Some Big Influential Company"
-		}
+	  {
+		"name": "John Davidson",
+		"function": "Da Big Boss",
+		"company": "Some Big Influential Company"
+	  }
 	],
 	"testimonials": [
-		{
-			"name": "John Davidson",
-			"flavor": "professional",
-			"quote": "Jane is awesome! I'd hire her again in a heartbeat."
-		},
-		{
-			"name": "Elias Fullstacker",
-			"flavor": "technical",
-			"quote": "I worked with Jane on Jabberwocky and can vouch for her awesome technical capabilities and attention to detail. Insta-hire."
-		},
-		{
-			"name": "Dana Nevins",
-			"flavor": "personal",
-			"quote": "I've known Jane personally and professionally for almost ten years. She is one in a million."
-		}
+	  {
+		"name": "John Davidson",
+		"flavor": "professional",
+		"quote": "Jane is awesome! I'd hire her again in a heartbeat."
+	  },
+	  {
+		"name": "Elias Fullstacker",
+		"flavor": "technical",
+		"quote": "I worked with Jane on Jabberwocky and can vouch for her awesome technical capabilities and attention to detail. Insta-hire."
+	  },
+	  {
+		"name": "Dana Nevins",
+		"flavor": "personal",
+		"quote": "I've known Jane personally and professionally for almost ten years. She is one in a million."
+	  }
 	],
 	"languages": [
-		{
-			"language": "English",
-			"level": "Native"
-		},
-		{
-			"language": "Spanish",
-			"level": "Moderate",
-			"years": 10
-		}
+	  {
+		"language": "English",
+		"level": "Native"
+	  },
+	  {
+		"language": "Spanish",
+		"level": "Moderate",
+		"years": 10
+	  }
 	],
 	"interests": [
-		{
-			"name": "reading",
-			"summary": "Jane is a fan of mystery novels and courtroom dramas including Agatha Christie and John Grisham.",
-			"keywords": [
-				"mystery",
-				"Agatha Christie",
-				"John Grisham"
-			]
-		},
-		{
-			"name": "hiking",
-			"summary": "Jane enjoys hiking, light mountain climbing, and has four summits under her belt!"
-		},
-		{
-			"name": "yoga"
-		}
+	  {
+		"name": "reading",
+		"summary": "Jane is a fan of mystery novels and courtroom dramas including Agatha Christie and John Grisham.",
+		"keywords": [
+		  "mystery",
+		  "Agatha Christie",
+		  "John Grisham"
+		]
+	  },
+	  {
+		"name": "hiking",
+		"summary": "Jane enjoys hiking, light mountain climbing, and has four summits under her belt!"
+	  },
+	  {
+		"name": "yoga"
+	  }
 	]
-}
+  }

@@ -99,13 +99,13 @@ Keywords:
 
 ## Skills
 
-{% for skill in skills.sets %}
-### {{ skill.name }}
+{% for skillset in skills.sets %}
+### {{ skillset.name }}
 
-_{{ skill.level }}_
+_{{ skillset.level }}_
 
-{% for skill_name, skill_level in skill.skills.items() %}
-{{ skill_name }}: {{ skill_level }}  
+{% for skill in skillset.skills %}
+{{ skill.name }}: {{ skill.level }}  
 {% endfor %}
 
 {% endfor %}

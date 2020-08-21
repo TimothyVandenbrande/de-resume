@@ -30,8 +30,8 @@ def generate_docx(outputdir, context, docx):
     template.render(context)
     template.save(outputdir + "/" + os.path.splitext(filename)[0] + ".docx")
 
-docx = "templates/de_cv_template.docx.j2"
-md = "templates/de_cv_template.md.j2"
+docx = "templates/de_cv_template.j2.docx"
+md = "templates/de_cv_template.j2.md"
 outputdir = os.getcwd() + "/output"
 resumedir = os.getcwd() + "/resume"
 
